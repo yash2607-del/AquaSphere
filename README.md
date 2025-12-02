@@ -4,13 +4,13 @@ A cross-platform Flutter app to explore and analyze groundwater level data acros
 
 ---
 
-## Features
+## Core Features
 - Interactive India map with boundaries and 31k+ station markers
 - Station details and quick focus on map
 - Dataset list and paginated record fetch from backend
 - Time-series charting using `fl_chart`
 - Lightweight analytics views
-- Multi-screen navigation: Home, Map, Stations, Charts, Analytics, About, Language
+- Multi-screen navigation: Home, Map, Stations, Charts, Analytics, About, Multi Language
 
 ---
 
