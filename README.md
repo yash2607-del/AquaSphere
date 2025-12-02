@@ -1,4 +1,4 @@
-# AquaSphere — Water Monitor (Flutter + FastAPI)
+# AquaSphere — Water Monitor Mobile App 
 
 A cross-platform Flutter app to explore and analyze groundwater level data across India, backed by a lightweight FastAPI service that serves cleaned CSV datasets. The app features an interactive map with 31,000+ water monitoring stations, dataset browsing, charts, and basic analytics.
 
