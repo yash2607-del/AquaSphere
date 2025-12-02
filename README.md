@@ -1,16 +1,22 @@
-# sih_2025
+# DWLR Project — Water Monitor (Flutter + FastAPI)
 
-A new Flutter project.
+A cross-platform Flutter app to explore and analyze groundwater level data across India, backed by a lightweight FastAPI service that serves cleaned CSV datasets. The app features an interactive map with 31,000+ water monitoring stations, dataset browsing, charts, and basic analytics.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- Interactive India map with boundaries and 31k+ station markers
+- Station details and quick focus on map
+- Dataset list and paginated record fetch from backend
+- Time-series charting using `fl_chart`
+- Lightweight analytics views
+- Multi-screen navigation: Home, Map, Stations, Charts, Analytics, About, Language
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
+- Flutter 3 (Dart SDK `^3.9.2`)
+- Packages: `flutter_map`, `latlong2`, `fl_chart`, `http`
+- Backend: FastAPI, Uvicorn, Pandas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
